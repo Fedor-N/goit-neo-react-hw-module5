@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TMDB_READ_TOKEN = import.meta.env.VITE_API_KEY;
+const TMDB_READ_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MjUwOTk3ZGY4NWM3N2Q1YjBjMjA4ZjdkZTNiMDc5MCIsIm5iZiI6MTcyNTMxNzA5Mi4wNTYxOTksInN1YiI6IjY2ZDYzZTliYTc3ZmE1OWRmNDZhYmFkNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.1BFY_2MCofcrTGcu_3ofa-nVzRwgkvaL3AkbxnMmuJU";
 
 const options = {
   headers: {
